@@ -1,0 +1,32 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+/******/ (() => { // webpackBootstrap
+/******/ 	var __webpack_modules__ = ({
+
+/***/ "./resources/js/pages/home/timer-progres-lounge.js":
+/*!*********************************************************!*\
+  !*** ./resources/js/pages/home/timer-progres-lounge.js ***!
+  \*********************************************************/
+/***/ (() => {
+
+eval("$(document).ready(function () {\n  initSlider();\n\n  function initSlider() {\n    $('.lounge').owlCarousel({\n      items: 2,\n      loop: true,\n      margin: 45,\n      center: true,\n      autoplay: true,\n      autoplayTimeout: 10000,\n      onInitialized: startProgressBar,\n      onTranslate: resetProgressBar,\n      onTranslated: startProgressBar,\n      responsive: {\n        991: {\n          items: 1\n        },\n        1000: {\n          items: 2\n        }\n      }\n    });\n  }\n\n  function startProgressBar() {\n    $(\".center\").append($('.north-location'));\n    $(\".center\").append($(\".slide-progress\"));\n    $(\".bar\").css({\n      width: \"60%\",\n      transition: \"width 10000ms\"\n    });\n    $(\".lounge .center\").append($(\".owl-dots\"));\n    $(\"owl-dots\").css(\"display\", \"flex\");\n  }\n\n  function resetProgressBar() {\n    // $(\".slide-progress\").live(\"click\", function() {\n    //     $(\".center\").remove($(\".slide-progress\"));\n    // });\n    $(\".bar\").css({\n      width: 0,\n      transition: \"width 0s\"\n    });\n  }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9yZXNvdXJjZXMvanMvcGFnZXMvaG9tZS90aW1lci1wcm9ncmVzLWxvdW5nZS5qcz84ZjY2Il0sIm5hbWVzIjpbIiQiLCJkb2N1bWVudCIsInJlYWR5IiwiaW5pdFNsaWRlciIsIm93bENhcm91c2VsIiwiaXRlbXMiLCJsb29wIiwibWFyZ2luIiwiY2VudGVyIiwiYXV0b3BsYXkiLCJhdXRvcGxheVRpbWVvdXQiLCJvbkluaXRpYWxpemVkIiwic3RhcnRQcm9ncmVzc0JhciIsIm9uVHJhbnNsYXRlIiwicmVzZXRQcm9ncmVzc0JhciIsIm9uVHJhbnNsYXRlZCIsInJlc3BvbnNpdmUiLCJhcHBlbmQiLCJjc3MiLCJ3aWR0aCIsInRyYW5zaXRpb24iXSwibWFwcGluZ3MiOiJBQUFBQSxDQUFDLENBQUVDLFFBQUYsQ0FBRCxDQUFjQyxLQUFkLENBQW9CLFlBQVU7QUFDMUJDLEVBQUFBLFVBQVU7O0FBQ1YsV0FBU0EsVUFBVCxHQUFzQjtBQUNsQkgsSUFBQUEsQ0FBQyxDQUFDLFNBQUQsQ0FBRCxDQUFhSSxXQUFiLENBQXlCO0FBQ3JCQyxNQUFBQSxLQUFLLEVBQUUsQ0FEYztBQUVyQkMsTUFBQUEsSUFBSSxFQUFFLElBRmU7QUFHckJDLE1BQUFBLE1BQU0sRUFBQyxFQUhjO0FBSXJCQyxNQUFBQSxNQUFNLEVBQUUsSUFKYTtBQUtyQkMsTUFBQUEsUUFBUSxFQUFFLElBTFc7QUFNckJDLE1BQUFBLGVBQWUsRUFBRSxLQU5JO0FBT3JCQyxNQUFBQSxhQUFhLEVBQUVDLGdCQVBNO0FBUXJCQyxNQUFBQSxXQUFXLEVBQUVDLGdCQVJRO0FBU3JCQyxNQUFBQSxZQUFZLEVBQUVILGdCQVRPO0FBVXJCSSxNQUFBQSxVQUFVLEVBQUU7QUFDUixhQUFLO0FBQ0RYLFVBQUFBLEtBQUssRUFBRTtBQUROLFNBREc7QUFJUixjQUFNO0FBQ0ZBLFVBQUFBLEtBQUssRUFBRTtBQURMO0FBSkU7QUFWUyxLQUF6QjtBQW1CSDs7QUFDRCxXQUFTTyxnQkFBVCxHQUE0QjtBQUN4QlosSUFBQUEsQ0FBQyxDQUFDLFNBQUQsQ0FBRCxDQUFhaUIsTUFBYixDQUFvQmpCLENBQUMsQ0FBQyxpQkFBRCxDQUFyQjtBQUNBQSxJQUFBQSxDQUFDLENBQUMsU0FBRCxDQUFELENBQWFpQixNQUFiLENBQW9CakIsQ0FBQyxDQUFDLGlCQUFELENBQXJCO0FBRUFBLElBQUFBLENBQUMsQ0FBQyxNQUFELENBQUQsQ0FBVWtCLEdBQVYsQ0FBYztBQUNWQyxNQUFBQSxLQUFLLEVBQUUsS0FERztBQUVWQyxNQUFBQSxVQUFVLEVBQUU7QUFGRixLQUFkO0FBS0FwQixJQUFBQSxDQUFDLENBQUMsaUJBQUQsQ0FBRCxDQUFxQmlCLE1BQXJCLENBQTRCakIsQ0FBQyxDQUFDLFdBQUQsQ0FBN0I7QUFDQUEsSUFBQUEsQ0FBQyxDQUFDLFVBQUQsQ0FBRCxDQUFja0IsR0FBZCxDQUFrQixTQUFsQixFQUE2QixNQUE3QjtBQUdIOztBQUVELFdBQVNKLGdCQUFULEdBQTRCO0FBRXhCO0FBQ0E7QUFDQTtBQUNBZCxJQUFBQSxDQUFDLENBQUMsTUFBRCxDQUFELENBQVVrQixHQUFWLENBQWM7QUFDVkMsTUFBQUEsS0FBSyxFQUFFLENBREc7QUFFVkMsTUFBQUEsVUFBVSxFQUFFO0FBRkYsS0FBZDtBQUlIO0FBRUosQ0FqREQiLCJzb3VyY2VzQ29udGVudCI6WyIkKCBkb2N1bWVudCApLnJlYWR5KGZ1bmN0aW9uKCl7XG4gICAgaW5pdFNsaWRlcigpO1xuICAgIGZ1bmN0aW9uIGluaXRTbGlkZXIoKSB7XG4gICAgICAgICQoJy5sb3VuZ2UnKS5vd2xDYXJvdXNlbCh7XG4gICAgICAgICAgICBpdGVtczogMixcbiAgICAgICAgICAgIGxvb3A6IHRydWUsXG4gICAgICAgICAgICBtYXJnaW46NDUsXG4gICAgICAgICAgICBjZW50ZXI6IHRydWUsXG4gICAgICAgICAgICBhdXRvcGxheTogdHJ1ZSxcbiAgICAgICAgICAgIGF1dG9wbGF5VGltZW91dDogMTAwMDAsXG4gICAgICAgICAgICBvbkluaXRpYWxpemVkOiBzdGFydFByb2dyZXNzQmFyLFxuICAgICAgICAgICAgb25UcmFuc2xhdGU6IHJlc2V0UHJvZ3Jlc3NCYXIsXG4gICAgICAgICAgICBvblRyYW5zbGF0ZWQ6IHN0YXJ0UHJvZ3Jlc3NCYXIsXG4gICAgICAgICAgICByZXNwb25zaXZlOiB7XG4gICAgICAgICAgICAgICAgOTkxOiB7XG4gICAgICAgICAgICAgICAgICAgIGl0ZW1zOiAxXG4gICAgICAgICAgICAgICAgfSxcbiAgICAgICAgICAgICAgICAxMDAwOiB7XG4gICAgICAgICAgICAgICAgICAgIGl0ZW1zOiAyXG4gICAgICAgICAgICAgICAgfVxuICAgICAgICAgICAgfSxcbiAgICAgICAgfSk7XG4gICAgfVxuICAgIGZ1bmN0aW9uIHN0YXJ0UHJvZ3Jlc3NCYXIoKSB7XG4gICAgICAgICQoXCIuY2VudGVyXCIpLmFwcGVuZCgkKCcubm9ydGgtbG9jYXRpb24nKSk7XG4gICAgICAgICQoXCIuY2VudGVyXCIpLmFwcGVuZCgkKFwiLnNsaWRlLXByb2dyZXNzXCIpKTtcblxuICAgICAgICAkKFwiLmJhclwiKS5jc3Moe1xuICAgICAgICAgICAgd2lkdGg6IFwiNjAlXCIsXG4gICAgICAgICAgICB0cmFuc2l0aW9uOiBcIndpZHRoIDEwMDAwbXNcIlxuICAgICAgICB9KTtcblxuICAgICAgICAkKFwiLmxvdW5nZSAuY2VudGVyXCIpLmFwcGVuZCgkKFwiLm93bC1kb3RzXCIpKTtcbiAgICAgICAgJChcIm93bC1kb3RzXCIpLmNzcyhcImRpc3BsYXlcIiwgXCJmbGV4XCIpXG5cblxuICAgIH1cblxuICAgIGZ1bmN0aW9uIHJlc2V0UHJvZ3Jlc3NCYXIoKSB7XG5cbiAgICAgICAgLy8gJChcIi5zbGlkZS1wcm9ncmVzc1wiKS5saXZlKFwiY2xpY2tcIiwgZnVuY3Rpb24oKSB7XG4gICAgICAgIC8vICAgICAkKFwiLmNlbnRlclwiKS5yZW1vdmUoJChcIi5zbGlkZS1wcm9ncmVzc1wiKSk7XG4gICAgICAgIC8vIH0pO1xuICAgICAgICAkKFwiLmJhclwiKS5jc3Moe1xuICAgICAgICAgICAgd2lkdGg6IDAsXG4gICAgICAgICAgICB0cmFuc2l0aW9uOiBcIndpZHRoIDBzXCJcbiAgICAgICAgfSk7XG4gICAgfVxuXG59KTtcblxuIl0sImZpbGUiOiIuL3Jlc291cmNlcy9qcy9wYWdlcy9ob21lL3RpbWVyLXByb2dyZXMtbG91bmdlLmpzLmpzIiwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///./resources/js/pages/home/timer-progres-lounge.js\n");
+
+/***/ })
+
+/******/ 	});
+/************************************************************************/
+/******/ 	
+/******/ 	// startup
+/******/ 	// Load entry module and return exports
+/******/ 	// This entry module can't be inlined because the eval-source-map devtool is used.
+/******/ 	var __webpack_exports__ = {};
+/******/ 	__webpack_modules__["./resources/js/pages/home/timer-progres-lounge.js"]();
+/******/ 	
+/******/ })()
+;

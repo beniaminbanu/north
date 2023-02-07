@@ -1,0 +1,617 @@
+#about-us {
+    margin-top: 100px;
+    background-size: cover;
+    background-image: url("/img/body-desktop.png");
+    background-repeat: no-repeat;
+    @media(max-width: 991px) {
+        background-size: cover;
+        background-image: url("/img/body-mobile1.png");
+        background-repeat: no-repeat;
+    }
+
+    .headers {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        @media(max-width: 991px) {
+            &:before {
+                content: "";
+                position: absolute;
+                background-image: url("/img/aboutlogo.png");
+                background-size: cover;
+                background-repeat: no-repeat;
+                max-width: 349px;
+                height: 77px;
+                width: 100%;
+                z-index: -1;
+            }
+        }
+
+        .slogan {
+            position: relative;
+
+
+            &::before {
+                position: absolute;
+                content: "";
+                height: 3px;
+                width: 43px;
+                z-index: 6;
+                background-color: var(--golden-color);
+                top: 26px;
+                left: 44px;
+                margin-top: 6px;
+            }
+        }
+
+        .main-header {
+            width: 50%;
+            text-align: center;
+            margin-top: 34px;
+            @media(max-width: 1400px) {
+                width: 67%;
+            }
+            @media(max-width: 1180px) {
+                width: 79%;
+            }
+            @media(max-width: 991px) {
+                font-size: 24px;
+                width: 100%;
+                span {
+                    display: block;
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    .about-us-description {
+        margin-top: 200px;
+        margin-bottom: 200px;
+        padding: 0 7%;
+        position: relative;
+        @media(max-width: 991px) {
+            margin-top: 100px;
+            padding: 0 3%;
+            margin-bottom: 153px;
+        }
+
+        &::before {
+            background-size: cover;
+            background-image: url(/img/grey.png);
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            height: 502px;
+            max-width: 1045px;
+            width: 100%;
+            z-index: -1;
+            left: 0;
+            top: -52px;
+            @media(max-width: 991px){
+                height: 300px;
+            }
+        }
+
+
+        .food-image {
+            img {
+
+                max-width: 100%;
+                object-fit: contain;
+                object-position: center;
+                @media(max-width: 600px) {
+                    height: auto;
+                    margin-bottom: 20px;
+                }
+            }
+
+            .rotate {
+                font-family: var(--futuraMedium-font);
+                color: var(--golden-color);
+                font-size: 9px;
+                display: block;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                max-width: 100%;
+                position: relative;
+                transform: rotate(-90deg);
+                right: -19rem;
+                top: -21rem;
+                @media(max-width: 1200px) {
+                    right: -14rem;
+                }
+                @media(max-width: 1040px) {
+                    font-size: 8px;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 60px;
+                    height: 1px;
+                    top: 8px;
+                    background-color: var(--golden-color);
+                    opacity: 0.5;
+                    margin-left: 30px;
+                }
+
+                @media(max-width: 991px) {
+                    display: none;
+                    &::after {
+                        display: none;
+                    }
+                }
+            }
+        }
+
+        .food-wrapper {
+            position: relative;
+            @media(max-width: 991px) {
+                &:before {
+                    content: "";
+                    position: absolute;
+                    background-image: url("/img/Gabrieltunescu.png");
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    z-index: -1;
+                    max-width: 253px;
+                    width: 100%;
+                    min-height: 210px;
+                    bottom: 0;
+                    right: 0;
+                }
+            }
+            @media(max-width: 991px) {
+                padding-left: 0;
+                margin-top: 60px;
+                width: 100%;
+                margin-left: 0;
+            }
+
+            .rotate {
+                font-family: var(--futuraMedium-font);
+                color: var(--golden-color);
+                font-size: 9px;
+                display: block;
+                letter-spacing: 4px;
+                text-transform: uppercase;
+                max-width: 100%;
+                position: relative;
+                transform: rotate(90deg);
+                right: -39rem;
+                @media(max-width: 1700px) {
+                    right: -32rem;
+                    top: -94px;
+                }
+                @media(max-width: 1490px) {
+                    right: -27rem;
+                    &::after {
+                        width: 180px !important;
+                        left: -229px !important;
+                    }
+                }
+                @media(max-width: 1350px) {
+                    right: -21rem;
+                    top: -202px;
+                    &::after {
+                        width: 216px !important;
+                        left: -238px !important;
+                    }
+                }
+                @media(max-width: 1240px) {
+                    right: -18rem;
+                    top: -234px;
+
+                }
+                @media(max-width: 1150px) {
+                    right: -16rem;
+                }
+                @media(max-width: 1170px) {
+                    right: -15rem;
+                }
+
+                &::after {
+                    content: "";
+                    position: absolute;
+                    width: 277px;
+                    height: 1px;
+                    top: 8px;
+                    right: -71px;
+                    background-color: var(--golden-color);
+                    left: -292px;
+                    opacity: 0.5;
+                }
+
+                @media(max-width: 991px) {
+                    display: none;
+                    &::after {
+                        display: none;
+                    }
+                }
+
+            }
+
+            .link {
+                max-width: 278px;
+                width: 100%;
+                color: white;
+                border-radius: 30px;
+                height: 50px;
+                font-family: var(--futuraBold-font);
+                font-size: 13px;
+                text-transform: uppercase;
+                margin-top: 45px;
+                @media(max-width: 991px) {
+                    max-width: 337px;
+                    width: 100%;
+                }
+            }
+
+            .about-us-content {
+                width: 82%;
+
+                p {
+                    font-family: var(--futuraBook-font);
+                    font-size: 18px;
+                    color: var(--brown-color);
+                    @media(max-width: 991px) {
+                        font-size: 14px;
+                    }
+
+                    &:nth-child(1) {
+                        margin-bottom: 65px;
+                        @media(max-width: 1250px) {
+                            margin-bottom: 25px;
+                        }
+                    }
+
+                    &:nth-child(2) {
+                        margin-bottom: 42px;
+                    }
+                }
+
+                @media(max-width: 1400px) {
+                    width: 100%;
+                }
+            }
+
+            .founder {
+                font-family: var(--futuraBold-font);
+                font-size: 16px;
+                text-transform: uppercase;
+                color: var(--golden-color);
+                letter-spacing: 1px;
+
+                span {
+                    color: var(--black-color);
+                    position: relative;
+                    margin-left: 20px;
+                    @media(max-width: 991px) {
+                        display: block;
+                        margin: 0;
+                    }
+
+                    &:before {
+                        content: "";
+                        position: absolute;
+                        width: 6px;
+                        height: 2px;
+                        background-color: var(--golden-color);
+                        left: -15px;
+                        bottom: 10px;
+                        @media(max-width: 991px) {
+                            display: none;
+                        }
+                    }
+                }
+
+                @media(max-width: 991px) {
+                    font-size: 14px;
+                }
+            }
+
+            .slogan {
+                display: flex;
+                position: relative;
+
+                &:before {
+                    position: absolute;
+                    content: "";
+                    height: 3px;
+                    width: 49px;
+                    z-index: 6;
+                    background-color: var(--golden-color);
+                    bottom: -14px;
+                    //@media(max-width: 991px) {
+                    //    display: none;
+                    //}
+                }
+
+                @media(max-width: 991px) {
+                    display: block;
+                }
+
+                p {
+                    margin-left: 26px;
+
+                    @media(max-width: 991px) {
+                        margin: 0;
+                    }
+                }
+
+            }
+
+            .main-header {
+                margin-bottom: 40px;
+                margin-top: 32px;
+
+                span {
+                    text-transform: none;
+                }
+
+                @media(max-width: 991px) {
+                    font-size: 24px;
+                }
+            }
+        }
+    }
+
+    .new-menu {
+        position: relative;
+
+        &::before {
+            background-size: cover;
+            background-image: url(/img/grey1.png);
+            background-repeat: no-repeat;
+            content: "";
+            position: absolute;
+            height: 916px;
+            //width: 1516px;
+            width: 89%;
+            z-index: -1;
+            left: 165px;
+            bottom: 105px;
+            @media(max-width: 1500px) {
+                width: 80%;
+            }
+            @media(max-width: 991px) {
+                display: none;
+            }
+        }
+
+        &::after {
+            content: "";
+            position: absolute;
+            max-width: 1200px;
+            width: 100%;
+            height: 1px;
+            top: -85px;
+            background-color: var(--golden-color);
+            left: 18%;
+            transform: translate(10px, 10px);
+            @media(max-width: 1510px) {
+                left: 10%;
+            }
+            @media(max-width: 1400px) {
+                max-width: 1000px;
+            }
+            @media(max-width: 1200px) {
+                max-width: 800px;
+                left: 16%;
+            }
+            @media(max-width: 991px) {
+                max-width: 666px;
+            }
+            @media(max-width: 830px) {
+                left: 8%;
+            }
+            @media(max-width: 750px) {
+                max-width: 559px;
+                left: 10%;
+            }
+            @media(max-width: 660px) {
+                max-width: 471px;
+                left: 11%;
+            }
+            @media(max-width: 565px) {
+                max-width: 360px;
+                left: 12%
+            }
+            @media(max-width: 435px) {
+                max-width: 297px;
+            }
+            @media(max-width: 360px) {
+                max-width: 228px;
+                left: 13%;
+            }
+        }
+
+        .headers {
+            margin-bottom: 60px;
+
+            .slogan {
+                &::before {
+                    left: 103px;
+                }
+            }
+        }
+
+        .menu {
+            .row {
+                justify-content: center;
+                align-items: center;
+
+                .product {
+                    position: relative;
+                    width: 97%;
+                    cursor: pointer;
+
+                    &:hover {
+                        .product-name {
+                            top: -114px;
+                            transition: top 500ms linear;
+                            @media(max-width: 991px) {
+                                top: initial;
+                            }
+
+                            span {
+                                color: var(--golden-color);
+                                position: relative;
+                                @media(max-width: 991px) {
+                                    color: white;
+                                }
+
+                                &::before {
+                                    content: "";
+                                    position: absolute;
+                                    transition: 500ms linear;
+                                    width: 20px;
+                                    opacity: 1;
+                                    height: 2px;
+                                    background-color: var(--golden-color);
+                                    bottom: -7px;
+                                    left: 99px;
+                                }
+                            }
+                        }
+
+                    }
+
+
+                    &::before {;
+                        background: rgb(0, 0, 0);
+                        background: linear-gradient(-13deg, rgba(0, 0, 0, 1) 0%, rgba(255, 255, 255, 0) 100%, rgba(255, 255, 255, 1) 100%);
+                        position: absolute;
+                        content: "";
+                        width: 100%;
+                        height: 436px;
+                    }
+
+                    a {
+                        text-decoration: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+
+                        img {
+                            //width: 368px;
+                            width: 100%;
+                            height: 436px;
+                            max-width: 100%;
+                            object-fit: cover;
+                            object-position: left;
+
+                        }
+                    }
+
+                    .product-name {
+                        //position: absolute;
+                        //bottom: 36px;
+                        //left: 108px;
+                        //transform: translate(66px, -48px);
+                        position: relative;
+                        bottom: 59px;
+                        transition: 500ms linear;
+                        top: -73;
+                        @media(max-width: 991px) {
+                            //transform: translate(10px, -77px);
+                            display: block;
+                            width: fit-content;
+                        }
+
+                        span {
+                            font-size: 16px;
+                            font-family: var(--futuraHeavy-font);
+                            color: var(--white-color);
+                            letter-spacing: 3px;
+                            text-transform: uppercase;
+                            display: block;
+                            cursor: pointer;
+
+                            position: relative;
+                            width: 100%;
+                            transition: top 0ms linear;
+                            @media(max-width: 991px) {
+                                width: 100%;
+                                max-width: 172px;
+                                text-align: center;
+                            }
+
+                            &::before {
+                                content: "";
+                                position: absolute;
+                                transition: 0ms linear;
+                                opacity: 0;
+                                width: 20px;
+                                height: 2px;
+                                @media(max-width: 991px) {
+                                    display: none;
+                                }
+                            }
+
+                            //&:hover {
+                            //    top: -42px;
+                            //    color: var(--golden-color);
+                            //    transition: 450ms ease-out;
+                            //
+                            //    &::before {
+                            //        content: "";
+                            //        position: absolute;
+                            //        width: 20px;
+                            //        height: 2px;
+                            //        background-color: var(--golden-color);
+                            //        bottom: -7px;
+                            //        left: 99px;
+                            //        @media(max-width: 991px){
+                            //            display: none;
+                            //        }
+                            //    }
+                            //    @media(max-width: 991px){
+                            //        top: initial;
+                            //        color: white;
+                            //    }
+                            //}
+                        }
+                    }
+                }
+            }
+        }
+
+        .info-product {
+            text-align: center;
+            max-width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 20px;
+
+            p {
+                font-size: 16px;
+                color: var(--brown-color);
+                font-family: var(--futuraBook-font);
+
+            }
+
+            .link {
+                background-color: var(--brown-color);
+                border-radius: 30px;
+                color: white;
+                margin-top: 69px;
+                margin-bottom: 89px;
+                width: 253px;
+                text-transform: uppercase;
+                @media(max-width: 991px) {
+                    margin-top: 30px;
+                    margin-bottom: 30px;
+                    width: 100%;
+                    max-width: 344px;
+                }
+            }
+        }
+    }
+}

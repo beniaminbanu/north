@@ -1,0 +1,12 @@
+h1{
+    font-size: 36px;
+    font-family: var(--futuraBold-font);
+    color: var(--black-color);
+    text-transform: uppercase;
+    span{
+        color: var(--golden-color);
+        @media(max-width: 991px){
+            margin-top: 12px;
+        }
+    }
+}

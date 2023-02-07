@@ -1,0 +1,145 @@
+[
+  {
+    "handler_controller": "PageController",
+    "handler_view": "contact",
+    "handler_action": "index",
+    "class": null,
+    "order": 5,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 1
+  },
+  {
+    "handler_controller": "ServicesController",
+    "handler_view": "services",
+    "handler_action": "index",
+    "class": null,
+    "order": 1,
+    "status": "active",
+    "parent_id": 0,
+    "image": "pages/services-5.jpeg",
+    "is_searchable": 1
+  },
+  {
+    "handler_controller": "AboutController",
+    "handler_view": "about",
+    "handler_action": "index",
+    "class": null,
+    "order": 0,
+    "status": "active",
+    "parent_id": 0,
+    "image": "pages/despre-noi-6.jpeg",
+    "is_searchable": 1
+  },
+  {
+    "handler_controller": "HomeController",
+    "handler_view": "homepage",
+    "handler_action": "index",
+    "class": null,
+    "order": 0,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": null,
+    "handler_view": null,
+    "handler_action": null,
+    "class": null,
+    "order": 0,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": null,
+    "handler_view": null,
+    "handler_action": null,
+    "class": null,
+    "order": 1,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": null,
+    "handler_view": null,
+    "handler_action": null,
+    "class": null,
+    "order": 2,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": "FaqController",
+    "handler_view": "faq",
+    "handler_action": "index",
+    "class": null,
+    "order": 3,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": "ArticlesController",
+    "handler_view": "articles",
+    "handler_action": "index",
+    "class": null,
+    "order": 4,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": "CompareController",
+    "handler_view": "compare",
+    "handler_action": "index",
+    "class": null,
+    "order": 1,
+    "status": "active",
+    "parent_id": 0,
+    "image": "pages/hero-area-img.png",
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": "PersonalDetailsController",
+    "handler_view": "personal_details",
+    "handler_action": "index",
+    "class": null,
+    "order": 0,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": "ProviderController",
+    "handler_view": "provider",
+    "handler_action": "index",
+    "class": null,
+    "order": 0,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  },
+  {
+    "handler_controller": "InitialInfoController",
+    "handler_view": "initial-info",
+    "handler_action": "index",
+    "class": null,
+    "order": 0,
+    "status": "active",
+    "parent_id": 0,
+    "image": null,
+    "is_searchable": 0
+  }
+]

@@ -1,0 +1,70 @@
+
+@font-face {
+    font-family: 'Futura-Book';
+    src: url('/fonts/FuturaStd-Book.eot');
+    src: url('/fonts/FuturaStd-Book.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FuturaStd-Book.woff2') format('woff2'),
+    url('/fonts/FuturaStd-Book.woff') format('woff'),
+    url('/fonts/FuturaStd-Book.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+    @font-face {
+    font-family: 'Futura-Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('/fonts/Futura Std Light'), url('/fonts/FuturaStdLight.woff') format('woff');
+    }
+
+@font-face {
+    font-family: 'Futura-Medium';
+    src: url('/fonts/FuturaStd-Medium.eot');
+    src: url('/fonts/FuturaStd-Medium.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FuturaStd-Medium.woff2') format('woff2'),
+    url('/fonts/FuturaStd-Medium.woff') format('woff'),
+    url('/fonts/FuturaStd-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura-Heavy';
+    src: url('/fonts/FuturaStd-Heavy.eot');
+    src: url('/fonts/FuturaStd-Heavy.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FuturaStd-Heavy.woff2') format('woff2'),
+    url('/fonts/FuturaStd-Heavy.woff') format('woff'),
+    url('/fonts/FuturaStd-Heavy.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura-Bold';
+    src: url('/fonts/FuturaStd-Bold.eot');
+    src: url('/fonts/FuturaStd-Bold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FuturaStd-Bold.woff2') format('woff2'),
+    url('/fonts/FuturaStd-Bold.woff') format('woff'),
+    url('/fonts/FuturaStd-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura-ExtraBold';
+    src: url('/fonts/FuturaStd-ExtraBold.eot');
+    src: url('/fonts/FuturaStd-ExtraBold.eot?#iefix') format('embedded-opentype'),
+    url('/fonts/FuturaStd-ExtraBold.woff2') format('woff2'),
+    url('/fonts/FuturaStd-ExtraBold.woff') format('woff'),
+    url('/fonts/FuturaStd-ExtraBold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+

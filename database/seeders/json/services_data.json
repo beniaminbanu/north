@@ -1,0 +1,41 @@
+[
+  {
+    "service_id": 1,
+    "locale": "ro",
+    "slug": "Introduci datele de consum",
+    "seo_title": "",
+    "seo_description": "",
+    "seo_keywords": "",
+    "name": "Introduci datele de consum",
+    "title": "",
+    "short_description": "Îți personalizăm ofertele în funcție de profilul tău de consum",
+    "description": "Îți personalizăm ofertele în funcție de profilul tău de consum",
+    "list": ""
+  },
+  {
+    "service_id": 2,
+    "locale": "ro",
+    "slug": "Compari ofertele din piață",
+    "seo_title": "",
+    "seo_description": "",
+    "seo_keywords": "",
+    "name": "Compari ofertele din piață",
+    "title": "",
+    "short_description": "Afli cât economisești dacă îți alegi o altă ofertă",
+    "description": "Afli cât economisești dacă îți alegi o altă ofertă",
+    "list": ""
+  },
+  {
+    "service_id": 3,
+    "locale": "ro",
+    "slug": "Alegi oferta potrivită",
+    "seo_title": "",
+    "seo_description": "",
+    "seo_keywords": "",
+    "name": "Alegi oferta potrivită",
+    "title": "",
+    "short_description": "Poți schimba furnizorul gratuit, online, indiferent de contractul tău.",
+    "description": "Poți schimba furnizorul gratuit, online, indiferent de contractul tău.",
+    "list": ""
+  }
+]

@@ -1,0 +1,107 @@
+[
+  {
+    "parent_id": 0,
+    "order": 1,
+    "title": "Tablou de bord",
+    "icon": "fa-bar-chart",
+    "uri": "/"
+  },
+  {
+    "parent_id": 0,
+    "order": 2,
+    "title": "Continut site",
+    "icon": "fa-file-word-o",
+    "uri": "/"
+  },
+  {
+    "parent_id": 2,
+    "order": 3,
+    "title": "Pagini",
+    "icon": "fa-align-left",
+    "uri": "content/pages"
+  },
+  {
+    "parent_id": 2,
+    "order": 4,
+    "title": "Servicii",
+    "icon": "fa-cogs",
+    "uri": "content/services"
+  },
+  {
+    "parent_id": 2,
+    "order": 5,
+    "title": "Traduceri",
+    "icon": "fa-file-text-o",
+    "uri": "content/translations"
+  },
+  {
+    "parent_id": 0,
+    "order": 22,
+    "title": "Articole",
+    "icon": "fa-bars",
+    "uri": "content/articles"
+  },
+  {
+    "parent_id": 0,
+    "order": 23,
+    "title": "Categorii articole",
+    "icon": "fa-bars",
+    "uri": "content/articles-category"
+  },
+  {
+    "parent_id": 0,
+    "order": 24,
+    "title": "Admin",
+    "icon": "fa-tasks",
+    "uri": ""
+  },
+  {
+    "parent_id": 23,
+    "order": 25,
+    "title": "Meniu",
+    "icon": "fa-bars",
+    "uri": "auth/menu"
+  },
+  {
+    "parent_id": 23,
+    "order": 26,
+    "title": "Parametrii",
+    "icon": "fa-cogs",
+    "uri": "auth/settings"
+  },
+  {
+    "parent_id": 23,
+    "order": 27,
+    "title": "Utilizatori",
+    "icon": "fa-users",
+    "uri": "auth/users"
+  },
+  {
+    "parent_id": 23,
+    "order": 28,
+    "title": "Modele email",
+    "icon": "fa-envelope-o",
+    "uri": "auth/email-templates"
+  },
+  {
+    "parent_id": 23,
+    "order": 29,
+    "title": "Jurnal activitati",
+    "icon": "fa-history",
+    "uri": "auth/logs"
+  },
+  {
+    "parent_id": 23,
+    "order": 30,
+    "title": "Roluri",
+    "icon": "fa-user",
+    "uri": "auth/roles"
+  },
+  {
+    "parent_id": 23,
+    "order": 31,
+    "title": "Permisiuni",
+    "icon": "fa-ban",
+    "uri": "auth/permissions"
+  }
+]

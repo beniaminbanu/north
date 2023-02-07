@@ -1,0 +1,29 @@
+[
+  {
+    "image": "services/compara-furnizorii.png",
+    "order": 0,
+    "is_home": 1,
+    "status": 1,
+    "is_footer": 0,
+    "footer_order": 0,
+    "is_request": 0
+  },
+  {
+    "image": "services/declaratia.png",
+    "order": 1,
+    "is_home": 1,
+    "status": 1,
+    "is_footer": 0,
+    "footer_order": 1,
+    "is_request": 0
+  },
+  {
+    "image": "services/economisesti.png",
+    "order": 2,
+    "is_home": 1,
+    "status": 1,
+    "is_footer": 0,
+    "footer_order": 2,
+    "is_request": 0
+  }
+]
